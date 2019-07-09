@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <title>Home</title>
 </head>
 <body>
 
-<h1>Test Page</h1>
+<nav th:replace="partials/navbar :: nav"></nav>
+
+<h1>Orion Music Blog</h1>
 
 </body>
 </html>
