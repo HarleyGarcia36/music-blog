@@ -1,4 +1,4 @@
-package com.musicblog.musicblog;
+package com.musicblog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
